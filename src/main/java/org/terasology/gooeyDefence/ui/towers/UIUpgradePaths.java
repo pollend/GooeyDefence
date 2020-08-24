@@ -15,18 +15,18 @@
  */
 package org.terasology.gooeyDefence.ui.towers;
 
+import org.joml.Vector2i;
 import org.terasology.gooeyDefence.upgrading.BlockUpgradesComponent;
 import org.terasology.gooeyDefence.upgrading.UpgradeInfo;
 import org.terasology.gooeyDefence.upgrading.UpgradeList;
 import org.terasology.gooeyDefence.upgrading.UpgradingSystem;
-import org.terasology.math.geom.Vector2i;
-import org.terasology.rendering.nui.Canvas;
-import org.terasology.rendering.nui.CoreWidget;
-import org.terasology.rendering.nui.databinding.Binding;
-import org.terasology.rendering.nui.databinding.DefaultBinding;
-import org.terasology.rendering.nui.databinding.ReadOnlyBinding;
-import org.terasology.rendering.nui.layouts.FlowLayout;
-import org.terasology.rendering.nui.widgets.UIButton;
+import org.terasology.nui.Canvas;
+import org.terasology.nui.CoreWidget;
+import org.terasology.nui.databinding.Binding;
+import org.terasology.nui.databinding.DefaultBinding;
+import org.terasology.nui.databinding.ReadOnlyBinding;
+import org.terasology.nui.layouts.FlowLayout;
+import org.terasology.nui.widgets.UIButton;
 
 import java.util.ArrayList;
 import java.util.List;

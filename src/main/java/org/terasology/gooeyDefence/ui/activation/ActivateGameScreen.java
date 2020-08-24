@@ -15,10 +15,10 @@
  */
 package org.terasology.gooeyDefence.ui.activation;
 
+import org.terasology.nui.WidgetUtil;
+import org.terasology.nui.layouts.relative.RelativeLayout;
+import org.terasology.nui.widgets.ActivateEventListener;
 import org.terasology.rendering.nui.CoreScreenLayer;
-import org.terasology.rendering.nui.WidgetUtil;
-import org.terasology.rendering.nui.layouts.relative.RelativeLayout;
-import org.terasology.rendering.nui.widgets.ActivateEventListener;
 
 /**
  * Screen shown at the start of the game.

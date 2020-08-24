@@ -18,10 +18,10 @@ package org.terasology.gooeyDefence.ui.hud;
 import org.terasology.gooeyDefence.StatSystem;
 import org.terasology.gooeyDefence.ui.control.UIWaveInfo;
 import org.terasology.gooeyDefence.waves.WaveManager;
+import org.terasology.nui.databinding.ReadOnlyBinding;
+import org.terasology.nui.widgets.UILabel;
 import org.terasology.registry.In;
-import org.terasology.rendering.nui.databinding.ReadOnlyBinding;
 import org.terasology.rendering.nui.layers.hud.CoreHudWidget;
-import org.terasology.rendering.nui.widgets.UILabel;
 
 /**
  * A HUD layer that displays various different hud elements.

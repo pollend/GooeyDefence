@@ -26,9 +26,9 @@ import org.terasology.gooeyDefence.components.ShrineComponent;
 import org.terasology.gooeyDefence.events.OnFieldActivated;
 import org.terasology.gooeyDefence.events.OnFieldReset;
 import org.terasology.gooeyDefence.health.events.EntityDeathEvent;
+import org.terasology.nui.WidgetUtil;
 import org.terasology.registry.In;
 import org.terasology.rendering.nui.NUIManager;
-import org.terasology.rendering.nui.WidgetUtil;
 import org.terasology.rendering.nui.layers.ingame.DeathScreen;
 
 /**

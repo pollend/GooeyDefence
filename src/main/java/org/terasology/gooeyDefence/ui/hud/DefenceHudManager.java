@@ -23,11 +23,11 @@ import org.terasology.gooeyDefence.DefenceUris;
 import org.terasology.gooeyDefence.StatSystem;
 import org.terasology.gooeyDefence.waves.OnWaveEnd;
 import org.terasology.math.geom.Rect2f;
+import org.terasology.nui.databinding.ReadOnlyBinding;
+import org.terasology.nui.widgets.UIIconBar;
 import org.terasology.registry.In;
 import org.terasology.rendering.nui.NUIManager;
-import org.terasology.rendering.nui.databinding.ReadOnlyBinding;
 import org.terasology.rendering.nui.layers.hud.HealthHud;
-import org.terasology.rendering.nui.widgets.UIIconBar;
 
 /**
  * Manages displaying and setting all the hud elements.

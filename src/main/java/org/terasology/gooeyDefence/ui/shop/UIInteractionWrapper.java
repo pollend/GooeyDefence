@@ -15,19 +15,19 @@
  */
 package org.terasology.gooeyDefence.ui.shop;
 
-import org.terasology.math.geom.Vector2i;
-import org.terasology.rendering.nui.BaseInteractionListener;
-import org.terasology.rendering.nui.Canvas;
-import org.terasology.rendering.nui.CoreWidget;
-import org.terasology.rendering.nui.InteractionListener;
-import org.terasology.rendering.nui.UIWidget;
-import org.terasology.rendering.nui.databinding.DefaultBinding;
-import org.terasology.rendering.nui.events.NUIMouseClickEvent;
-import org.terasology.rendering.nui.skin.UISkin;
-import org.terasology.rendering.nui.widgets.ActivateEventListener;
-import org.terasology.rendering.nui.widgets.TooltipLine;
-import org.terasology.rendering.nui.widgets.TooltipLineRenderer;
-import org.terasology.rendering.nui.widgets.UIList;
+import org.joml.Vector2i;
+import org.terasology.nui.BaseInteractionListener;
+import org.terasology.nui.Canvas;
+import org.terasology.nui.CoreWidget;
+import org.terasology.nui.InteractionListener;
+import org.terasology.nui.UIWidget;
+import org.terasology.nui.databinding.DefaultBinding;
+import org.terasology.nui.events.NUIMouseClickEvent;
+import org.terasology.nui.skin.UISkin;
+import org.terasology.nui.widgets.ActivateEventListener;
+import org.terasology.nui.widgets.TooltipLine;
+import org.terasology.nui.widgets.TooltipLineRenderer;
+import org.terasology.nui.widgets.UIList;
 import org.terasology.utilities.Assets;
 
 import java.util.ArrayList;
